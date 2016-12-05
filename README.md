@@ -12,14 +12,21 @@ You will get an output sound of a person saying 'hello' continuously every one s
 Following are the hardware connections between STM32F407ZET6 and VS1053:
 
 STM32F407ZET6             VS1053
--------------             ------
+
 PB0             --->      XCS
+
 PB1             --->      XDCS
+
 PF11            --->      DREQ-IN
+
 PF12            --->      RESET
+
 PA5             --->      SCK
+
 PA6             --->      MISO
+
 PA7             --->      MOSI
+
 
 Note that PB0,PB1,PF12 are output pins, DREQ-IN is input to the STM32F4xx.
 PA5,PA6,PA7 are SPI1 interface with VS1053.
