@@ -11,7 +11,7 @@ You will get an output sound of a person saying 'hello' continuously every one s
 
 Following are the hardware connections between STM32F407ZET6 and VS1053:
 
-STM32F407ZET6             VS1053
+(STM32F407ZET6)           (VS1053)
 
 PB0             --->      XCS
 
